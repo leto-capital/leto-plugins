@@ -119,7 +119,7 @@ if ($problemas.Count -eq 0) {
     Write-Host "   Agora instale o plugin pelo Claude. No app:"
     Write-Host "     Diretorio > Plugins > + > cole o repositorio" -ForegroundColor Cyan
     Write-Host "   Ou no terminal:"
-    Write-Host "     /plugin marketplace add <owner>/leto-plugins" -ForegroundColor Cyan
+    Write-Host "     /plugin marketplace add leto-capital/leto-plugins" -ForegroundColor Cyan
     Write-Host "     /plugin install leto-curvas@leto" -ForegroundColor Cyan
 } else {
     Write-Host "   Pendencias: $($problemas -join ', ')" -ForegroundColor Yellow

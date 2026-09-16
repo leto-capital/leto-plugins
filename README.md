@@ -32,7 +32,7 @@ repositório → Sincronizar. Depois instale `leto-curvas` na aba Pessoal.
 **Pelo terminal:**
 
 ```
-/plugin marketplace add <owner>/leto-plugins
+/plugin marketplace add leto-capital/leto-plugins
 /plugin install leto-curvas@leto
 ```
 
@@ -47,11 +47,11 @@ Abra uma sessão nova e peça, em português mesmo:
 Este diretório já é o repositório. Suba para o GitHub da empresa:
 
 ```bash
-git remote add origin https://github.com/<owner>/leto-plugins.git
+git remote add origin https://github.com/leto-capital/leto-plugins.git
 git push -u origin main
 ```
 
-Depois disso, todo mundo usa `<owner>/leto-plugins` no passo 2 acima.
+Depois disso, todo mundo usa `leto-capital/leto-plugins` no passo 2 acima.
 
 ### Para atualizar um plugin
 
