@@ -1,0 +1,27 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "leto",
+  "description": "Plugins internos da Leto Capital para a mesa de crédito.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Leto Capital"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "leto-curvas",
+      "displayName": "Curvas de crédito",
+      "source": "./plugins/leto-curvas",
+      "description": "Gera dois gráficos no padrão visual da Leto — taxa indicativa e marcação em % do PU par — para qualquer conjunto de papéis de crédito, a partir dos tickers.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Leto Capital"
+      },
+      "license": "UNLICENSED",
+      "category": "productivity",
+      "keywords": ["credito", "debenture", "anbima", "grafico", "taxa", "pupar", "leto"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# Saídas geradas ao rodar os scripts de dentro do repositório.
+# Restrito à pasta saida/ de propósito: um "*.png" solto excluiria os logos da
+# marca em plugins/*/skills/*/assets/logos, e o gráfico sairia sem logo para
+# quem instalasse pelo repositório.
+saida/
+/curvas/
+
+# nunca versionar chave
+api_key.txt
+.env
